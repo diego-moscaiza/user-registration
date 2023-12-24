@@ -11,6 +11,8 @@ public class UserModel {
     private String surname;
     private int age;
     private String address;
+
+    public UserModel() {}
     
     public UserModel(String name, String surname, int age, String address) {
         this.name = name;
@@ -23,7 +25,7 @@ public class UserModel {
         this.id = id;
     }
     
-    public int setUserId() {
+    public int getUserId() {
         return id;
     }
 
